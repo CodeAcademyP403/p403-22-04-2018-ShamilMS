@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    opacity: 0;
+    top:-550px;
+    transition: 0.3s;
+    
+}
+
+.launchChat{
+    position: absolute;
+    right: 9%;
+    bottom: 20px;
+    background-color: #feffff;
+    padding: 1px;
+    border: 0.5px solid #bdb3b3;
+    border-radius: 5px;
+    height: 87px;
+    width: 270px;
+    cursor: pointer;
+}
+    
+
+.launchChat i{
+    font-size: 3em;
+    color: #0f7be4;
+    
+}
+
+.dialogWindow{
+    background-color: #dcede7;;
+    height:450px;
+    width: 60%;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.chat-icon{
+    line-height: 100px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.col-9 span b{
+    font-size: 1.3em;
+}
+
+
+.launchChat:hover{
+    background-color: #16af8e;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.launchChat:hover .fas{
+    color: white;
+    transition: 0.3s;
+    
+}
+
+.head{
+    background-color: rgb(54, 154, 116);
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    color: white;
+    
+    
+}
+
+.input{
+    /* background-color: gray; */
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.inputDiv{
+    padding-left: 0;
+    padding-right: 0;
+    display: inline-block;
+}
+
+.type{
+    height: 50px
+}
+
+
+.send{
+    height: 53px;
+    display: inline-block;
+    width: 5%;
+    border: 1px solid #6d9bbd;
+    border-radius: 92%;
+    text-align: center;
+    line-height: 48px;
+    margin-left: 2%;
+    font-size: 1.5em;
+    color: #1e77b5;
+    cursor: pointer;
+     
+}
+
+
+.send:hover{
+    background-color: #1e77b5;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.chatting{
+    overflow: scroll;
+    height: 400px;
+    padding: 0;
+}
+
+.right{  
+  text-align: right;
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 1%;
+  margin: 0;
+  display: inline-block;
+  width: 92%;
+  margin-top: 1%;
+  
+}
+.left{
+    text-align: left;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 1%;
+    display: inline-block;
+    width: 92%;
+    margin-top: 1%;
+  
+}
+
+
+.right:hover,
+.left:hover{
+    background-color: rgb(120, 180, 160);
+    color: white;
+    transition: 0.1s;
+}
+
+.leftImage{
+    border-radius: 100%;
+    border: 1px solid gray;
+    width: 70px;
+    margin-left: 1%;
+}
+
+.rightImage{
+    border-radius: 100%;
+    border: 1px solid gray;
+    width: 70px;
+    margin-right: 1%;
+    
+}
+
+.selected{
+    background-color:#99a79a;
+}
+
+.trash{
+    position: absolute;
+    right: 2%;
+    top: 19%;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.trash:hover{
+    color: rgb(230, 80, 80);
+    transition: 0.3s;
+}
